@@ -39,7 +39,7 @@ def product_menu(category):
     markup = InlineKeyboardMarkup()
 
     if category == "proxy":
-        markup.add(InlineKeyboardButton("Owl Proxy 200MB 10 BDT", callback_data="select_qty|proxy|Owl Proxy 200MB|10"))
+        markup.add(InlineKeyboardButton("Owl Proxy 200MB 15 BDT", callback_data="select_qty|proxy|Owl Proxy 200MB|15"))
         markup.add(InlineKeyboardButton("ABC Proxy SUB 1 GB 250 BDT", callback_data="select_qty|proxy|ABC Proxy SUB 1 GB|250"))
         markup.add(InlineKeyboardButton("Dataimpluse SUB Proxy 1 GB 150 BDT", callback_data="select_qty|proxy|Dataimpluse Proxy SUB 1 GB|150"))
         markup.add(InlineKeyboardButton("Rapid Proxy SUB 1 GB 130 BDT", callback_data="select_qty|proxy|Rapid Proxy SUB 1 GB|130"))
