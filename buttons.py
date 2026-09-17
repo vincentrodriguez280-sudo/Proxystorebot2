@@ -50,7 +50,7 @@ def product_menu(category):
         markup.add(InlineKeyboardButton("MASH Proxy SUB 1 GB 130 BDT", callback_data="select_qty|proxy|MASH Proxy SUB 1 GB|130"))
         markup.add(InlineKeyboardButton("9 Proxy SUB 1 GB 130 BDT", callback_data="select_qty|proxy|9 Proxy SUB 1 GB|130"))
         markup.add(InlineKeyboardButton("9 Proxy 200 MB 35 BDT", callback_data="select_qty|proxy|9 Proxy 200 MB|35"))
-        markup.add(InlineKeyboardButton("H143 Proxy 200 MB 15 BDT", callback_data="select_qty|proxy|H143 Proxy 200 MB|15"))
+        markup.add(InlineKeyboardButton("H143 Proxy mobile user 200 MB 15 BDT", callback_data="select_qty|proxy|H143 Proxy mobile user 200 MB|15"))
         markup.add(InlineKeyboardButton("NOVA PROXY 200 MB 12 BDT", callback_data="select_qty|proxy|NOVA PROXY 200 MB|12"))
     elif category == "morelogin":
         markup.add(InlineKeyboardButton("Morelogin 100 Minutes 30 BDT", callback_data="select_qty|morelogin|Morelogin 100 Minutes|30"))
